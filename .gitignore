@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+config.json
+
+__pycache__/
+*.pyc
+supabase/.temp/
+
+# Reference script has hard-coded credentials; keep it local.
+whatsapp_sender_reference.py
